@@ -19,8 +19,8 @@ to give you an immersive and native feeling casting experience.
 
 ## Installation
 
-Download and extract this
-[zip](https://github.com/marcomow/youtube-cast-receiver/raw/refs/heads/main/dist/youtube-cast-receiver.zip).
+Download and extract the appropriate executable's zip file from this
+[folder](https://github.com/marcomow/youtube-cast-receiver/raw/refs/heads/main/dist/)
 Then execute the binary (run from the terminal in the extracted folder
 `./youtube-cast-receiver`).
 

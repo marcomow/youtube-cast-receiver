@@ -2,7 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@fakoua/zip-ts@^1.3.1": "jsr:@fakoua/zip-ts@1.3.1",
+      "jsr:@fakoua/zip-ts": "jsr:@fakoua/zip-ts@1.3.1",
       "jsr:@std/assert@^0.218.2": "jsr:@std/assert@0.218.2",
       "jsr:@std/fs@0.218.2": "jsr:@std/fs@0.218.2",
       "jsr:@std/path@0.218.2": "jsr:@std/path@0.218.2",
@@ -715,10 +715,5 @@
     "https://deno.land/x/puppeteer_plus@0.23.0/mod.ts": "7f49961698ffde447a8760e72859a40515ee2b3fa81cfc3bb761b684bee85e2a",
     "https://deno.land/x/puppeteer_plus@0.23.0/src/install.ts": "177c96bf8a76a9df93e50fd90d2e356291a611b47de4da1e06ba5939a2418944",
     "https://deno.land/x/puppeteer_plus@0.23.0/src/patch.ts": "c34ef28984981b0cc00f86e770fe6e2c4a855d4df0d6daa5e4ceb251fc05cfa2"
-  },
-  "workspace": {
-    "dependencies": [
-      "jsr:@fakoua/zip-ts@^1.3.1"
-    ]
   }
 }
