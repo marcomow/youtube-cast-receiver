@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "tasks": {
+        "develop": "deno run --allow-all --unstable-ffi main.ts",
+        "compile": "deno compile --allow-all --unstable-ffi --output=dist/youtube-cast-receiver --target=x86_64-unknown-linux-gnu main.ts"
+    }
+}
