@@ -20,8 +20,8 @@ to give you an immersive and native feeling casting experience.
 ## Installation
 
 Download and extract this
-[zip](https://github.com/marcomow/youtube-cast-receiver/raw/refs/heads/main/dist/youtube-cast-receiver.zip)
-and execute the binary (run from the terminal in the extracted folder
+[zip](https://github.com/marcomow/youtube-cast-receiver/raw/refs/heads/main/dist/youtube-cast-receiver.zip).
+Then execute the binary (run from the terminal in the extracted folder
 `./youtube-cast-receiver`).
 
 ## Linking your device
@@ -57,15 +57,6 @@ and execute the binary (run from the terminal in the extracted folder
 ### 8: Enter the code on your computer screen in the box and press "Link"
 
 <img src="https://i.imgur.com/gCKYXlz.png" height="500px">
-
-## Release History
-
-- 0.1.0
-  - Work in progress - compiled for Linux/MacOS
-- 1.0.0
-  - Official release - compiled for Windows/MacOS/Linux
-- 1.0.1
-  - Bugfix - removed menubar on windows distribution
 
 ## Contributing
 
