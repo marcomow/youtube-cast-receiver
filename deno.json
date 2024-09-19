@@ -1,7 +1,10 @@
 {
-    "version": "0.0.1",
-    "tasks": {
-        "develop": "deno run --allow-all --unstable-ffi main.ts",
-        "compile": "deno compile --allow-all --unstable-ffi --output=dist/youtube-cast-receiver --target=x86_64-unknown-linux-gnu main.ts"
-    }
+  "version": "0.0.1",
+  "tasks": {
+    "develop": "deno run --allow-all --unstable-ffi main.ts",
+    "compile": "deno compile --allow-all --unstable-ffi --output=dist/youtube-cast-receiver --target=x86_64-unknown-linux-gnu main.ts && deno run --allow-all zip.ts"
+  },
+  "imports": {
+    "@fakoua/zip-ts": "jsr:@fakoua/zip-ts@^1.3.1"
+  }
 }

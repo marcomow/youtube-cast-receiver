@@ -1,0 +1,3 @@
+# exclude all files from dist that are not .zip
+/dist/*
+!dist/*.zip
