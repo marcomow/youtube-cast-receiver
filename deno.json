@@ -2,6 +2,6 @@
   "version": "0.0.1",
   "tasks": {
     "develop": "deno run --allow-all --unstable-ffi main.ts",
-    "compile": "deno run --allow-all zip.ts"
+    "build": "deno run --allow-all build.ts"
   }
 }

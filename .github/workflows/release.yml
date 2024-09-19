@@ -1,0 +1,22 @@
+name: Releases
+
+on: 
+  push: 
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v3
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.46.3
+    - name:  Build
+      run: deno task compile
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "dist/*" 
