@@ -19,4 +19,6 @@ jobs:
       run: deno task build
     - uses: ncipollo/release-action@v1
       with:
+        # YYYYMMDD-hhmm
+        tag: "$(date +%Y%m%d)-$(date +%H%M)"
         artifacts: "dist/*" 
