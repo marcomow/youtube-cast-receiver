@@ -16,7 +16,7 @@ jobs:
       with:
         deno-version: v1.46.3
     - name:  Build
-      run: deno task compile
+      run: deno task build
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "dist/*" 
